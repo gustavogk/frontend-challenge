@@ -16,7 +16,7 @@ export default function Signup() {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Evita o comportamento padrão de recarregar a página após o envio do formulário
+    event.preventDefault();
 
     const { email, password, confirmPassword } = formData;
 
@@ -25,29 +25,23 @@ export default function Signup() {
       return;
     }
 
-    // Obter usuários existentes do localStorage ou inicializar um array vazio se não houver usuários
     const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
 
-    // Verificar se o usuário já existe na lista
     const isUserExists = existingUsers.some((user) => user.email === email);
     if (isUserExists) {
       alert("Este usuário já existe.");
       return;
     }
 
-    // Adicionar novo usuário à lista de usuários
     const newUser = { email, password };
     const updatedUsers = [...existingUsers, newUser];
 
-    // Salvar a lista de usuários atualizada no localStorage
     localStorage.setItem("users", JSON.stringify(updatedUsers));
-    // Definir o e-mail do usuário como logado no localStorage
     localStorage.setItem("loggedInUser", email);
 
     console.log("Usuário salvo:", newUser);
     console.log("Todos os usuários:", updatedUsers);
 
-    // Redirecionar para a página de cursos usando useRouter
     window.location.href = "/courses";
   };
 

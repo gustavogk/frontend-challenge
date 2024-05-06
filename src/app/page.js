@@ -16,19 +16,17 @@ export default function Home() {
   };
 
   const handleSubmit = (event) => {
-    event.preventDefault(); // Evita o comportamento padrão de recarregar a página após o envio do formulário
+    event.preventDefault();
 
     const { email, password } = formData;
-
-    // Obter usuários existentes do localStorage
     const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
-
-    // Verificar se o usuário existe e a senha está correta
     const foundUser = existingUsers.find(
       (user) => user.email === email && user.password === password
     );
     if (foundUser) {
       alert("Login bem sucedido!");
+      localStorage.setItem("loggedInUser", JSON.stringify(foundUser));
+      window.location.href = "/courses";
     } else {
       alert("Credenciais inválidas. Por favor, verifique seu email e senha.");
     }
