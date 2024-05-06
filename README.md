@@ -1,10 +1,6 @@
 
 <p align="center">
-  <img src="./public/images/logo.svg" width="200"/> 
-</p>
-
-<p align="center">
-  <img src="./public/images/avatar.svg" width="200"/> 
+  <img src="./.github/img.png" width="500"/> 
 </p>
 
 <p align="center">	
@@ -43,10 +39,10 @@ This project was made using the follow technologies:
 # :camera: Screenshots
   
 <div align="center">
-   <img src="./.github/home.png" width="1200px">
-   <img src="./.github/posts.png" width="1200px">
-   <img src="./.github/postpreview.png" width="1200px">
-   <img src="./.github/post.png" width="1200px">
+   <img src="./.github/img1.png" width="1200px">
+   <img src="./.github/img2.png" width="1200px">
+   <img src="./.github/img3.png" width="1200px">
+   <img src="./.github/img4.png" width="1200px">
 </div>
 
 # :computer: How to run
