@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<p align="center">
+  <img src="./public/images/logo.svg" width="200"/> 
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="./public/images/avatar.svg" width="200"/> 
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">	
+   <a href="https://www.linkedin.com/in/gustavo-gk/">
+      <img alt="GustavoAssunção" src="https://img.shields.io/badge/-GustavoAssunção-5965e0?style=for-the-badge&logo=Linkedin&logoColor=white" />
+   </a>
+  <a href="mailto:gust.krv@gmail.com">
+   <img alt="Email" src="https://img.shields.io/badge/-GustavoAssunção-5965e0?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  👏  Projeto desafio frontend - Grupo Pensar Educação
+</p>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<div align="center">
+  <sub> Made with 💖 by
+    <a href="https://github.com/gustavogk"> Gustavo Assunção.
+    <h1></h1>
+  </sub>
+</div>
+  
+# 📌 Contents
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+* [Technologies](#rocket-technologies) 
+* [Screenshots](#camera-screenshots) 
+  
+# :rocket: Technologies
+This project was made using the follow technologies:
 
-## Learn More
+* [React](https://reactjs.org/)      
+* [NextJS](https://nextjs.org/)
+  
+# :camera: Screenshots
+  
+<div align="center">
+   <img src="./.github/home.png" width="1200px">
+   <img src="./.github/posts.png" width="1200px">
+   <img src="./.github/postpreview.png" width="1200px">
+   <img src="./.github/post.png" width="1200px">
+</div>
+  
+# :page_facing_up: License
 
-To learn more about Next.js, take a look at the following resources:
+Made with 💖 by [Gustavo Assunção](https://www.linkedin.com/in/gustavo-gk/). 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you! 🌠
